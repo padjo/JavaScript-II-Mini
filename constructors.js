@@ -23,7 +23,6 @@ Animal.prototype.grow = function() {
 function Cat(options) {
   // invoke Animal here with .call
 Animal.call(this, options);
-this.fromHawaii = options.fromHawaii;
 }
 
 // connect the prototypes here
